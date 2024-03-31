@@ -1,0 +1,104 @@
+.coin-toss-bg-container {
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    background-size: cover;
+  }
+  
+  .coin-toss-content-container {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+  }
+  
+  .coin-toss-header {
+    color: #a35200;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .coin-toss-description {
+    color: #334155;
+    font-size: 1.35rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+  }
+  
+  .coin-toss-outcome-img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .coin-toss-button {
+    cursor: pointer;
+    outline: none;
+    background-color: #f9d423;
+    color: #a35200;
+    padding: 0.5rem 1rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1.2rem;
+    font-size: 0.8rem;
+    border: none;
+  }
+  
+  .coin-toss-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .coin-toss-stat {
+    font-size: 1rem;
+    color: #475569;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .coin-toss-description,
+  .coin-toss-button,
+  .coin-toss-stat {
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .coin-toss-content-container {
+      padding: 3rem;
+    }
+  
+    .coin-toss-header {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .coin-toss-description {
+      font-size: 1.5rem;
+      margin-top: auto;
+      margin-bottom: 1.5rem;
+    }
+  
+    .coin-toss-outcome-img {
+      height: 16rem;
+      width: 16rem;
+      margin-bottom: 2rem;
+    }
+  
+    .coin-toss-button {
+      margin-bottom: 1.75rem;
+    }
+  
+    .coin-toss-stats-container {
+      flex-direction: row;
+    }
+  }
+  
